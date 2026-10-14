@@ -13,8 +13,8 @@ import telegram
 from telegram.constants import ParseMode
 
 # GitHub Secrets에서 보안 정보를 가져옵니다.
-TELEGRAM_TOKEN = os.environ.get('8932667103:AAGu3h_8ducSiyJUQjI38QQ4gw6eNAdqjbA')
-CHAT_ID = os.environ.get('7767161293')
+TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
+CHAT_ID = os.environ.get('CHAT_ID')
 
 def scrape_today_meals():
     chrome_options = Options()
