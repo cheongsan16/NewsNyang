@@ -2,7 +2,7 @@ name: Daily Meal Bot
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 한국 시간 아침 9시 (UTC 0시)
+    - cron: '0 22 * * *' # 한국 시간 아침 9시 (UTC 0시)
   workflow_dispatch: # 수동 테스트용 버튼 활성화
 
 jobs:
